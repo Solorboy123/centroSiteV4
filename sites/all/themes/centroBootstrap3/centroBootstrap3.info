@@ -1,0 +1,93 @@
+name = Bootstrap Sub-theme
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[sub_navigations]= 'Sub-Navigation'
+regions[easy_breadcrumb]= 'Bread Crumb Area' 
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer_top]     = 'Footer Top Area'
+regions[footer]         = 'Footer Middle Area'
+regions[footer_bottom]  = 'Footer Bottom Area'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+regions[main_banner]    = 'Main Banner Area'
+
+regions[front_row_1]    = 'Front Page - Row 1'
+regions[front_row_2_A]    = 'Front Page - Row 2A'
+regions[front_row_2_B]    = 'Front Page - Row 2B'
+regions[front_row_2_C]    = 'Front Page - Row 2C'
+regions[front_row_3]      = 'Front Page - Row 3'
+
+regions[left_side]        = 'Left Side of Taxonomy Page'
+regions[right_side]       = 'Right Side of Taxonomy Page'
+regions[bottom_row]       = 'Bottom row of Taxonomy Page'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = bootstrap/dist/css/bootstrap.min.css
+
+stylesheets[all][] = css/banners.css
+
+stylesheets[all][] = css/gray.css
+stylesheets[all][] = css/front.css
+stylesheets[all][] = css/foot.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+; 
+;scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+;scripts[] = 'bootstrap/js/transition.js'
+ 
+ scripts[] = js/events-calendar.js
+ scripts[] = js/foot-sitemap.js
+ 
+ scripts[] = bootstrap/dist/js/bootstrap.min.js
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.

@@ -1,0 +1,218 @@
+/*
+ * responsive.css
+ * 
+ * By Default Bootstrap 3 uses mobile first, the followign should be used just for specific view sizes
+ **/
+
+/* Custom, iPhone Retina, portrait (xsp)*/ 
+@media only screen and (max-width:479px){
+    .xsp-hidden{display:none !important;}
+    .xsp-show{display:block !important;}
+    .xsp-invisible{visibility:hidden;}
+    .xsp-no-sides{padding-left:0px !important;padding-right:0px !important;}
+    .xsp-no-left{padding-left:0px !important;}
+    .xsp-no-right{padding-right:0px !important;}
+    .xsp-v-15{padding-top:15px;padding-bottom:15px;}
+    .xsp-v-7-5{padding-top:7.5px;padding-bottom:7.5px;}
+    .xsp-v-5{padding-top:5px;padding-bottom:5px;}
+    .xsp-up-p15{padding-top:15px !important;}
+    .xsp-down-p15{padding-bottom:15px !important;}
+    .xsp-up-m15{margin-top:15px !important;}
+    .xsp-down-m15{margin-bottom:15px !important;}
+    
+    /* Sub Navigation */
+    #sub_navigation{max-height:52px !important;}
+    
+    /* Home Page */
+    #main-banner.home-banner{height:300px;}
+    #main-banner.home-banner section{margin-left:-15px;margin-right:-15px;margin-top:100%;}
+    #first-row, #first-row section{margin-left:-15px;margin-right:-15px;}
+    #first-row img{height:200px;}
+    /* Centro Voices */
+    #block-views-1641009408430f043eab00b89b50e034 .views-field-text-wrapper{height:inherit;}
+    #voice-mobi-menu{height:30px;padding-left:15px;padding-right:15px;z-index:99;}
+    #voices-m-menu{position:relative;z-index:99;}
+    #voice-mobi-menu ul li{background-color:#0685BF;z-index:99;}
+    #voice-mobi-menu li a{color:#fff;z-index:99;}
+    .voices-logo img {height: 77px!important;} 
+    /* Centro TV */
+    #block-views-tv-main-lineup-block .view-display-id-main_line iframe{width:100%;height:inherit;}
+    .tv-logo img{height:90px !important;width:inherit !important;}
+
+    /* Centro Memorias */
+    /* #block-views-memorias-main-lineup-block .view-display-id-main_line iframe{width:100%;height:inherit;} */
+    .region.region-footer-top img{width: 65%;}
+
+    /*Centro Store */
+    .store-logo img {height: 77px!important;}   
+    .view--centro-store-main-article .views-field-text-wrapper{width: 219px !important;}
+    
+    /* Fix right margin overflow issue on cellphones */
+    html, body {overflow-x: hidden;}
+}
+/* Extra Small Devices, Phones, landscape (xsl)*/ 
+@media only screen and (min-width:480px) and (max-width:767px){
+    .xsl-hidden{display:none !important;}
+    .xsl-show{display:block !important;}
+    .xsl-invisible{visibility:hidden;}
+    .xsl-no-sides{padding-left:0px !important;padding-right:0px !important;}
+    .xsl-no-left{padding-left:0px !important;}
+    .xsl-no-right{padding-right:0px !important;}
+    .xsl-v-15{padding-top:15px;padding-bottom:15px;}
+    .xsl-v-7-5{padding-top:7.5px;padding-bottom:7.5px;}
+    .xsl-v-5{padding-top:5px;padding-bottom:5px;}
+    .xsl-up-p15{padding-top:15px !important;}
+    .xsl-down-p15{padding-bottom:15px !important;}
+    .xsl-up-m15{margin-top:15px !important;}
+    .xsl-down-m15{margin-bottom:15px !important;}
+    
+    /* Main Banner */
+    
+    /* Home Page */
+    #first-row section img{width:100%;}
+    #block-block-6 iframe{margin:0 auto;display:block !important;}
+    #first-row img{height:200px;}
+    #block-views-front-collections-block, #block-views-front-voices-block{margin-left:-15px;margin-right:-15px;}
+    /* Events & News */
+    #block-views-events-news-recent-block .views-field-field-image img{height:180px !important;}
+    /* Collections */
+    #block-views-e761b483ad317f10c0631271d957bece iframe, #block-views-lp-fv-collections-ftca-wrap iframe{height:360px !important;}
+    /* Centro Voices */
+    #block-views-92dc87f73c28bb5b408bb279d6e0c448 .views-field-field-image img{height:180px !important;}
+    #sub_navigation{max-height:30px !important;}
+    #voice-mobi-menu{height:30px;padding-left:15px;padding-right:15px;z-index;99;}
+    #voices-m-menu{position:relative;z-index:99;}
+    #voice-mobi-menu ul li{background-color:#0685BF;z-index:99;}
+    #voice-mobi-menu li a{color:#fff;z-index:99;}
+    .voices-logo  img { height:77px!important;}
+    #main-banner.tx-centro-voices-large {height:495px !important;}
+    .nine-grid .attachment-after .view .view-content{height:360px;}
+    /* Centro TV */
+    #block-block-4 img{height:77px;width:inherit;}
+    #block-views-centro-tv-main-article-block .views-row-first img{width:100%;}
+    #block-views-tv-main-lineup-block iframe{height:360px !important;}
+    #main-banner.tx-centro-tv-large{height:495px !important;}
+
+    /* Centro Memorias */
+    /* #block-views-memorias-main-lineup-block .view-display-id-main_line iframe{width:100%;height:inherit;} */
+    
+    /*Centro Store */
+    #main-banner.tx-store-large {height: 495px !important;}
+    .store-logo img {height: 77px!important;}
+}
+/* Small Devices, Tablets, portrait(sm)*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    .sm-hidden{display:none !important;}
+    .sm-show{display:block !important;}
+    .sm-invisible{visibility:hidden;}
+    .sm-no-sides{padding-left:0px !important;padding-right:0px !important;}
+    .sm-no-left{padding-left:0px !important;}
+    .sm-no-right{padding-right:0px !important;}
+    .sm-v-15{padding-top:15px;padding-bottom:15px;}
+    .sm-v-7-5{padding-top:7.5px;padding-bottom:7.5px;}
+    .sm-v-5{padding-top:5px;padding-bottom:5px;}
+    .sm-img-scale img{width:100%;height:inherit;}
+    
+    /* Home Page */
+    #second-row > div:nth-child(3){padding-top:30px;}
+    #first-row img{height:200px;}
+    #second-row .view-id-front_top_searches{width:48%;margin-right:13px;}
+    /*Events & News */
+    .region-left-side section, .region-right-side section{clear:both;display:block;margin-bottom: 15px;}
+    #block-views-events-news-recent-block .attachment-after .view-id-events_news_recent .view-content{height:256px;}
+    /* Collections */
+    #block-views-collections-six-grid-block .attachment-after .view-content{height:95px;}
+    .view-display-id-collections_or > .view-content:before{font-size:19px;}
+    #block-views-collections-six-grid-block .attachment-after .views-field-title{max-height:60px;overflow:hidden;}
+    /* Research & Education */
+    .conf > .view-content::before{font-size:25px;}
+    /* Centro Voices */
+    .nine-grid .attachment-after .view .view-content{height:240px;}
+    .nine-grid .attachment-after .view{margin-top:15px;margin-bottom:15px;}
+    #sub_navigation{max-height:30px !important;}
+    #voice-mobi-menu{height:30px;padding-left:15px;padding-right:15px;z-index;99;}
+    #voices-m-menu{position:relative;z-index:99;}
+    #voice-mobi-menu ul li{background-color:#0685BF;z-index:99;}
+    #voice-mobi-menu li a{color:#fff;z-index:99;}
+    .voices-logo img {height:154px !important;width:inherit !important;}
+
+    /* Centro Memorias */
+    /* #block-views-memorias-main-lineup-block .view-display-id-main_line iframe{width:100%;height:inherit;} */
+ 
+
+    /*Centro Store*/
+    .view--centro-store-main-article .views-field-text-wrapper{width: 330px !important;}
+    .store-logo img { height:154px !important;width:inherit !important;}
+    
+    /* Fix right margin overflow issue on cellphones */
+    html, body {overflow-x: hidden;}
+}
+/* Medium Devices, Desktops (md)*/
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .md-hidden{display:none !important;}
+    .md-show{display:block !important;}
+    .md-invisible{visibility:hidden;}
+    .md-no-sides{padding-left:0px !important;padding-right:0px !important;}
+    .md-no-left{padding-left:0px !important;}
+    .md-no-right{padding-right:0px !important;}
+    .md-v-15{padding-top:15px;padding-bottom:15px;}
+    .md-v-7-5{padding-top:7.5px;padding-bottom:7.5px;}
+    .md-v-5{padding-top:5px;padding-bottom:5px;}
+    .md-up-p15{padding-top:15px !important;}
+    .md-down-p15{padding-bottom:15px !important;}
+    .md-up-m15{margin-top:15px !important;}
+    .md-down-m15{margin-bottom:15px !important;}
+    
+    /* Front Page */
+    #block-views-front-events-block > .view-front-events{margin-top:127px;}
+    #first-row img{height:200px;}
+    
+    /*Centro TV*/
+    .view-centro-tv-main-article .views-field-text-wrapper{width: 440px !important;}
+
+    /*Centro Memorias*/
+   /* .view-centro-memorias-main-article .views-field-text-wrapper{width: 440px !important;}*/
+   /* #block-views-memorias-main-lineup-block .view-display-id-main_line iframe{width:100%;height:inherit;} */
+   
+
+    /*Centro Store*/
+    .view--centro-store-main-article .views-field-text-wrapper{width: 440px !important;}
+    
+    /* Sub Menu */
+    #sub_navigation{max-height:50px;}
+    #sub_navigation ul li{height:30px;text-align:center; width:14%;}
+    #sub_navigation ul a{color:#fff;text-transform:uppercase;display:block;}
+    #sub_navigation ul li:hover{background-color:#fff;}
+    #sub_navigation ul li:hover a{color:#F58220;}
+}
+/* Large Devices, Wide Screens (lg)*/
+@media only screen and (min-width : 1200px) {
+    .lg-hidden{display:none !important;}
+    .lg-show{display:block !important;}
+    .lg-invisible{visibility:hidden;}
+    .lg-no-sides{padding-left:0px !important;padding-right:0px !important;}
+    .lg-no-left{padding-left:0px !important;}
+    .lg-no-right{padding-right:0px !important;}
+    .lg-v-15{padding-top:15px;padding-bottom:15px;}
+    .lg-v-7-5{padding-top:7.5px;padding-bottom:7.5px;}
+    .lg-v-5{padding-top:5px;padding-bottom:5px;}
+    .lg-up-p15{padding-top:15px !important;}
+    .lg-down-p15{padding-bottom:15px !important;}
+    .lg-up-m15{margin-top:15px !important;}
+    .lg-down-m15{margin-bottom:15px !important;}
+    
+    /* Front Page */
+    #block-views-front-events-block > .view-front-events{margin-top:127px;}
+    /*Centro TV*/
+    .view-centro-tv-main-article .views-field-text-wrapper{width: 468px;}
+
+    /*Centro Memorias*/
+    .view-centro-memorias-main-article .views-field-text-wrapper{width: 468px;}
+
+    /* Sub Menu */
+    #sub_navigation{max-height:30px;}
+    #sub_navigation ul li{height:30px;text-align:center; width:14%;}
+    #sub_navigation ul a{color:#fff;text-transform:uppercase;display:block;padding-top:5px;}
+    #sub_navigation ul li:hover{background-color:#fff;}
+    #sub_navigation ul li:hover a{color:#F58220;}
+}

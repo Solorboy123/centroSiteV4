@@ -1,0 +1,28 @@
+/* Home Banner Image */
+.home-banner{background:#fff url('../images-source/500px/garmentWorker.jpg') no-repeat scroll center;height:500px;}
+
+/* Front Row Styles */
+.region-front-row-1 .views-field-text-wrapper{height:200px;padding-top:15px;padding-bottom:15px;}\
+.region-front-row-1 .views-field-header h3{font-size:25px;font-weight: bold;}
+.region-front-row-1 .views-field-title a{font-size:16px;line-height:20px;font-weight:bold;color:#fff;}
+.region-front-row-1 .views-field-body{font-size:15px;line-height:20px;font-family:'Rokkitt',serif;}
+
+#second-row .region-front-row-2-a .views-row, #second-row .region-front-row-2-b .views-row{height:108px;padding-top:5px;padding-bottom:5px;}
+#second-row .view-front-recent-publications, #second-row .view-front-news{padding-bottom:20px;}
+#second-row .view-header h4{font-size:21px;font-weight:bold;color:#663190;}
+#second-row .views-field-title a{font-size:16px;font-weight:bold;line-height:20px;color:#000;}
+#second-row .views-field-body{font-family:'Rokkitt',serif;font-size:15px;line-height:20px;}
+
+#third-row .views-field-text-wrapper{padding:5px 20px 5px 20px;outline:#dedfe0 solid 1px;box-shadow:2px 2px 5px #dedfe0;overflow:hidden;height:130px;}
+#third-row .views-field-field-image img{width:100%;height:inherit;}
+#third-row .views-field-title a{font-size:14px;line-height:20px;font-weight:bold;color:#000;}
+#third-row .views-field-body{font-family:'Rokkitt',serif;font-size:15px;line-height:20px;}
+#third-row .view-display-id-attachment_9{margin-bottom:30px;}
+
+#block-views-front-recent-articles-block .views-field-field-category{position: absolute;top:0;}
+#block-views-front-recent-articles-block .views-field-field-category a{font-size:13px;color:#fff;text-transform:uppercase;font-weight:bold;padding-left:10px;padding-right:10px;}
+.tid_8, .tid_11, .tid_10, .tid_13, .tid_15, .tid_21, .tid_22{background-color:#0685bf;}
+.tid_16{background-color:rgb(0,131,168);}
+.tid_17{background-color:#663190;}
+.tid_25, .tid_26{background-color:#cbad2d;}
+.tid_34{background-color:#50652d;}

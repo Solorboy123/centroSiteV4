@@ -1,0 +1,62 @@
+/* Front Page Banner Overwrites */
+#block-views-front-events-block .views-field-field-date{font-size:12px;text-transform:capitalize;}
+#block-views-front-events-block .views-field-title a{font-size:16px;font-weight:bold;line-height:19px;color:#fff;text-decoration:none;}
+#block-views-front-events-block .views-field-body{font-family:'Rokkitt',serif;font-size:15px;line-height:19px;}
+
+/* Style sheet regarding the main area banner*/
+#navbar p.lead{padding-top:15px;}
+#main-banner.tx-events-news-large{background:#fff url('../images-source/300px/eventsNews.png')no-repeat scroll center;height:300px;}
+#main-banner.tx-events-news{background:#fff url('../images-source/300px/eventsNews.png')no-repeat scroll center;height:150px;}
+
+.collections{background:#fff url('../images-source/300px/collections-banner.jpg') no-repeat fixed center;height:300px;}
+
+.library-publications{background:#fff url('../images-source/300px/library-banner.jpg') no-repeat fixed center;height:300px;}
+
+.research-education{background:#fff url('../images-source/300px/research-banner.jpg') no-repeat fixed center;height:300px;}
+/* Centro Voices */
+#main-banner.tx-centro-voices-large{background:#0685BF url('../images-source/300px/centroVoices.png')no-repeat scroll center;height:300px;}
+#main-banner.tx-centro-voices{background:#0685BF url('../images-source/300px/centroVoices.png')no-repeat scroll center;height:150px;}
+#sub_navigation.tx-centro-voices{background-color:#0685bf;}
+#sub_navigation.tx-centro-voices .navbar-header,#sub_navigation.tx-centro-voices #bs-example-navbar-collapse-1{background-color:#0685bf;}
+#sub_navigation.tx-centro-voices a{color:#fff;}
+
+/* Centro Memorias */
+#main-banner.tx-memorias-large {background:#BF1640 url('../images-source/300px/memorias_image.jpg')no-repeat scroll center; height:300px;}
+#main-banner.tx-memorias{background:#BF1640 url('../images-source/300px/memorias_image.jpg')no-repeat scroll center;height:150px;}
+
+/* Taxonomy Promoted Articles */
+#main-banner .views-field-field-image img{width:100%;height:inherit;}
+#main-banner .views-field-text-wrapper{position:absolute;padding:5px 15px 5px 15px;bottom:0;color:#fff;z-index:50;width:100%;}
+#main-banner .views-field-title a{color:#fff;font-weight:bold;}
+.tx-centro-voices-large .voices-logo img{width%100;height:inherit;}
+.tx-centro-voices .voices-logo img{height:120px;width:inherit;}
+
+/* No Taxonomy */
+.tx-none-large{background:#fff url('../images-source/300px/no-taxB.jpg')no-repeat scroll center;height:300px;}
+#main-banner.tx-none{background:#fff url('../images-source/300px/no-taxB.jpg')no-repeat scroll center;height:150px;}
+
+/* Centro TV */
+.tx-centro-tv-large{background:#F58220 url('../images-source/300px/centroTV1920.png')no-repeat scroll center;height:300px;}
+#main-banner.tx-centro-tv{background:#F58220 url('../images-source/300px/centroTV1920.png') no-repeat scroll center; height:150px;}
+.tx-centro-tv .tv-logo img{height:120px;width:inherit;}
+
+.tv-logo img{width:100%;height:inherit;}
+
+/* Collections */
+#main-banner.tx-collections-large{background:#fff url('../images-source/300px/collectionsB.jpg')no-repeat scroll center;height:300px;}
+#main-banner.tx-collections{background:#fff url('../images-source/300px/collectionsB.jpg')no-repeat scroll center;height:150px;}
+
+/* Library & Publications */
+#main-banner.tx-library-publications-large{background:#fff url('../images-source/300px/libraryPublicationsB.jpg')no-repeat scroll center;height:300px;}
+#main-banner.tx-library-publications{background:#fff url('../images-source/300px/libraryPublicationsB.jpg')no-repeat scroll center;height:150px;}
+
+/* Research & Education */
+#main-banner.tx-research-education-large{background:#fff url('../images-source/300px/researchEducationB.jpg')no-repeat scroll center;height:300px;}
+#main-banner.tx-research-education{background:#fff url('../images-source/300px/researchEducationB.jpg')no-repeat scroll center;height:150px;}
+
+/* Centro Store */
+#main-banner.tx-store-large{background:#50652D url('../images-source/300px/garmentWorker.png')no-repeat scroll center;height:300px;}
+#main-banner.tx-store{background:#50652D url('../images-source/300px/garmentWorker.png')no-repeat scroll center;height:150px;}
+#sub_navigation.tx-store{background-color:#50652d;}
+#sub_navigation.tx-store li{width:19%;}
+#block-block-42 .navbar-nav li {width: 100% !important;}
