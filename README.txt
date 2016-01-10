@@ -1,3 +1,8 @@
+/**************************************/
+This is the 4th version of Centro Site using Drupal 7 CMS and Bootstrap3
+Framework. settings.php and files folder where omitted. Comunnity contributed
+modules where added into the repository. Custom theme is located in 
+/sites/all/themes
 
 CONTENTS OF THIS FILE
 ---------------------
